@@ -17,12 +17,9 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(banco.toString());
-        Produto produto1 = new Produto(1, "caixa de som", 300.0);
-        criarProduto(produto1.getId(), produto1.getNome(), produto1.getValor());
-        Produto produto2 = new Produto(2, "fone de ouvido", 250.0);
-        criarProduto(produto2.getId(), produto2.getNome(), produto2.getValor());
-        Produto produto3 = new Produto(3, "caneta", 50.0);
-        criarProduto(produto3.getId(), produto3.getNome(), produto3.getValor());
+        Produto produto1 = criarProduto(1,"caixa de som",300.0);
+        Produto produto2 = criarProduto(2, "fone de ouvido", 250.0);
+        Produto produto3 = criarProduto(3, "caneta", 50.0);
         System.out.println("-----------------------------------------------");
         //Salvando Produto no Banco apos criação.
         salvarProduto(produto1);
