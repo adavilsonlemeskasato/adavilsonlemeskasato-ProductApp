@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e201bd11-0327-40ca-875b-8790cdc21168" name="Changes" comment="Cria arquivo de teste">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Produto.java" afterDir="false" />
+    <list default="true" id="e201bd11-0327-40ca-875b-8790cdc21168" name="Changes" comment="Criação da classe Produto e do HaspMap do banco">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/instructions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "hotfix/PROD-9",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/adavi/IdeaProjects/ProductApp/src/main/java/Main.java",
@@ -91,11 +90,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702581438488</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criação da classe Produto e do HaspMap do banco">
+      <option name="closed" value="true" />
+      <created>1702589944011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702589944012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cria arquivo de teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cria arquivo de teste" />
+    <MESSAGE value="Criação da classe Produto e do HaspMap do banco" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação da classe Produto e do HaspMap do banco" />
   </component>
 </project>
