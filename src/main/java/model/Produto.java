@@ -1,25 +1,16 @@
 package model;
 
 public class Produto {
-
-
-   public Produto(){
-
-   }
-
+   public Produto(){}
     public Produto(Integer id, String nome,Double valor){
        this.id=id;
        this.nome=nome;
        this.valor=-valor;
     }
 
-
     private Integer id;
     private String nome;
-
-       private Double valor;
-
-
+    private Double valor;
     public Integer getId(){
        return this.id;
     }
