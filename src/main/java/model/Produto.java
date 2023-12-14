@@ -7,7 +7,7 @@ public class Produto {
     public Produto(Integer id, String nome, Double valor) {
         this.id = id;
         this.nome = nome;
-        this.valor = -valor;
+        this.valor = valor;
     }
 
     private Integer id;
@@ -37,11 +37,13 @@ public class Produto {
     public Double getValor() {
         return this.valor;
     }
+
     public void setValor(Integer id, String nome, Double valor) {
         this.id = id;
         this.nome = nome;
         this.valor = valor;
     }
+
     @Override
     public String toString() {
         return "Produto{" +
