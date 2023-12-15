@@ -1,31 +1,22 @@
-import model.Produto;
-import java.util.HashMap;
-import java.util.Map;
+import lombok.extern.log4j.Log4j2;
+import repository.ProdutoRepository;
+import service.ProdutoService;
+
+@Log4j2
 public class Main {
-    static Map<Integer, Produto> banco = new HashMap<>();
-
-    //Criar Produto
-    static Produto criarProduto(Integer id, String nome, Double valor) {
-        Produto produtos = new Produto(id, nome, valor);
-        System.out.println(produtos);
-        return produtos;
-    }
-
-    static Produto salvarProduto(Produto produto) {
-        return banco.put(produto.getId(), produto);
-    }
-
     public static void main(String[] args) {
-        System.out.println(banco.toString());
-        Produto produto1 = criarProduto(1,"caixa de som",300.0);
-        Produto produto2 = criarProduto(2, "fone de ouvido", 250.0);
-        Produto produto3 = criarProduto(3, "caneta", 50.0);
-        System.out.println("-----------------------------------------------");
-        //Salvando Produto no Banco apos criação.
-        salvarProduto(produto1);
-        salvarProduto(produto2);
-        salvarProduto(produto3);
-        System.out.println(banco.toString());
+        ProdutoRepository repo = new ProdutoRepository();
+        ProdutoService service = new ProdutoService(repo);
+        log.info("info atual no banco: {}", service.bancoToString());
 
+        var produto1 = service.criarProduto(1, "caixa de som", 300.0);
+        var produto2 = service.criarProduto(2, "fone de ouvido", 250.0);
+        var produto3 = service.criarProduto(3, "caneta", 50.0);
+
+        service.salvarProduto(produto1);
+        service.salvarProduto(produto2);
+        service.salvarProduto(produto3);
+
+        log.info("info atual no banco: {}", service.bancoToString());
     }
 }
