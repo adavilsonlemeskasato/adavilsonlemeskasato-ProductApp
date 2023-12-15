@@ -1,4 +1,7 @@
 import model.Produto;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.Nullable;
+
 import java.util.HashMap;
 import java.util.Map;
 public class Main {
@@ -6,9 +9,14 @@ public class Main {
 
     //Criar Produto
     static Produto criarProduto(Integer id, String nome, Double valor) {
-        Produto produtos = new Produto(id, nome, valor);
-        System.out.println(produtos);
-        return produtos;
+        Produto produto = new Produto(id, nome, valor);
+        System.out.println(produto);
+        return produto;
+    }
+
+
+    static Produto editarProduto (){
+        return null;
     }
 
     static Produto salvarProduto(Produto produto) {
