@@ -1,9 +1,7 @@
 import model.Produto;
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.Nullable;
-
 import java.util.HashMap;
 import java.util.Map;
+
 public class Main {
     static Map<Integer, Produto> banco = new HashMap<>();
 
