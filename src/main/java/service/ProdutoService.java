@@ -13,8 +13,7 @@ public class ProdutoService {
     }
 
     public Produto criarProduto(Integer id, String nome, Double valor) {
-        Produto produto = new Produto(id, nome, valor);
-        return produto;
+        return new Produto(id, nome, valor);
     }
 
     public Produto salvarProduto(Produto produto) {

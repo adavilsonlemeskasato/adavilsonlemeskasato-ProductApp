@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6041db85-3d8a-450e-9fe8-7c9b8981deb2" name="Changes" comment="Envio de workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ProdutoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/ProdutoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProdutoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -56,7 +58,8 @@
     "git-widget-placeholder": "teste/prod-10-adavilson",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/DEV/ProductApp/src/main/java/resources"
+    "last_opened_file_path": "C:/DEV/ProductApp/src/main/java/resources",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -120,16 +123,5 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Envio de workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Envio de workspace.xml" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/repository/ProdutoRepository.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
