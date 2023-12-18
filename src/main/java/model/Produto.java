@@ -18,29 +18,22 @@ public class Produto {
         return this.id;
     }
 
-    public void setId(Integer id, String nome, Double valor) {
+    public void setId(Integer id) {
         this.id = id;
-        this.nome = nome;
-        this.valor = valor;
     }
-
     public String getNome() {
         return this.nome = nome;
     }
 
-    public void setNome(Integer id, String nome, Double valor) {
-        this.id = id;
+    public void setNome(String nome) {
         this.nome = nome;
-        this.valor = valor;
     }
 
     public Double getValor() {
         return this.valor;
     }
 
-    public void setValor(Integer id, String nome, Double valor) {
-        this.id = id;
-        this.nome = nome;
+    public void setValor(Double valor) {
         this.valor = valor;
     }
 
